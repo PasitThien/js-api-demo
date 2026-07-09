@@ -5,7 +5,7 @@ jobs:
   build:
     # runs-on: windows-latest
     # Must determine matrix context if strategy matrix is determined
-    runs-on: ${{ matrix }}   
+    runs-on: ${{ matrix.os }}   
     # Metrix 
     # []
     # In this cases it will execute 4 times in 4 server
